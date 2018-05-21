@@ -1,0 +1,53 @@
+@import "core";
+
+#page_reviews {
+	.uk-container {
+		margin-top: -30px;
+
+	}
+	article {
+		header {
+			h2 {
+				font-size: 20px;
+				color: #404040;
+				line-height: 12px;
+				font-family: $font-Light;
+				b{
+					font-family: $font-Regular;
+					font-weight: normal;
+				}
+				time {
+					font-family: $font-LightItalic;
+				}
+
+			}
+		}
+		.text {
+			padding: 20px;
+			border: 4px solid #c3dae9;
+			background-color: #f1f3f5;
+			overflow: hidden;
+			p {
+				font-size: 16px;
+				color: #505050;
+				font-family: $font-Light;
+				display: inline-block;
+				margin: 0;
+
+			}
+			
+		}
+		&.answer .text{
+			background-color: #fff3e1;
+			border: 4px solid #fee5bd;
+			p {
+				text-align: left;
+				float: right;
+			}
+		}
+	}
+}
+.button-main {
+	@include button-main();
+	width: auto;
+}

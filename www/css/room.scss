@@ -1,0 +1,253 @@
+@import "core";
+
+
+#page_room {
+	padding-bottom: 30px;
+	h2 {
+		font-size: 28px;
+		color: #121212;
+		text-transform: uppercase;
+		font-family: $font-Light;
+	}
+	.uk-slidenav-position {
+		.uk-slideshow{
+			.canvas-slide {
+				width: 100%;
+				padding-bottom: 66.66%;
+				overflow: hidden;
+				.slide-bg {
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					z-index: 1;
+					filter: blur(5px);
+					opacity: .6;
+				}
+				.canvas-img {
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					position: absolute;
+					margin: auto;
+					height: auto;
+					width: auto;
+					overflow: hidden;
+					display: flex;
+					align-content: center;
+					justify-content: center;
+					flex-direction: row;
+					z-index: 2;
+					&:after {
+						position: relative;
+					}
+					&:before {
+
+					}
+					.img-frame {
+						height: 100%;
+					}
+					img {
+						width: auto;
+						height: 100%;
+					}
+				}
+			}
+		}
+		.uk-slidenav.uk-slidenav-previous,  
+		.uk-slidenav.uk-slidenav-next {  
+			display: block; 
+			background-color: rgba(255, 255, 255, 0.3);
+			height: 61px;
+			width: 47px;
+			display: block;
+			color:#fff;
+			@include transition();
+			background-position: center;
+			background-repeat: no-repeat;
+			&:before {
+				content: "";
+			}
+			&:hover{
+				@include transition();
+				background-color: #2488c7;
+			}
+		}
+
+		.uk-slidenav.uk-slidenav-previous {
+			left: 0;
+			background-image: url('../img/slideset-arrow-l.png');
+			&:before {
+			}
+		}
+		.uk-slidenav.uk-slidenav-next {
+			right: 0;
+			background-image: url('../img/slideset-arrow-r.png');
+			&:before {
+			}
+		}
+	}
+	h3,.h3 {
+		font-size: 22px;
+		text-transform: uppercase;
+		color: white;
+		font-family: $font-Bold;
+		background-color: #f7ad0f;
+		border-bottom: 2px solid #d9940e;
+		line-height: 47px;
+		padding: 2px 27px;
+		margin-bottom: 0;
+
+	}
+	.rooms-list {
+		margin-top: 2px;
+		.room-item {
+			margin-top: 2px;
+			padding: 0;
+			border: 0;
+			a {
+				@include transition();
+				font-size: 20px;
+				color: white;
+				font-family: $font-Light;
+				display: block;
+				background-color: #4697ca;
+				line-height: 41px;
+				padding: 3px 27px;
+				&:before {
+					content: "";
+					display: inline-block;
+					width: 15px;
+					height: 15px;
+					background-image: url('../img/room-list-style.png');
+					background-repeat: no-repeat;
+					background-position: center;
+					margin-right: 17px;
+				}
+			}
+			&:hover {
+				a {
+					@include transition();
+					background-color: #2488c7;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	#dropdown-list {
+		.uk-dropdown {
+			background: 0;
+			padding-top: 5px;
+			ul {
+				margin-left: 10px;
+				.room-item a {
+					padding: 0;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.description-short {
+		font-family: $font-Bold;
+		color: #4697ca;
+		font-size: 23px;
+		margin-bottom: 30px!important;
+	}
+	dl {
+		dt{
+			border: 0;
+			font-size: 18px;
+			color: #4f4f4f;
+			font-family: $font-Bold;
+			&.dl-big {
+				font-size: 28px;
+				text-transform: uppercase;
+				font-family: $font-Light;
+			}
+		}
+		dd {
+			font-size: 20px;
+			color: #4f4f4f;
+			font-family: $font-Light;
+			&:before {
+				content: "";
+				display: inline-block;
+				width: 9px;
+				height: 9px;
+				margin-right: 10px;
+				background-image: url('../img/room-desc-list.png');
+			}
+			&.dl-big {
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+	.description-large {
+		font-size: 20px;
+		line-height: 33px;
+		color: #3b3b3b;
+		font-family: $font-Light;
+	}
+}
+#page_prise {
+	background-color:#fef0da;
+	h2 {
+		font-size: 30px;
+		color: black;
+		line-height: 50px;
+		font-family: $font-Light;
+	}
+	table {
+		width: 1150px;
+		height: 120px;
+		font-size: 18px;
+		line-height: 14px;
+		color: white;
+		font-family: $font-Light;
+		thead {
+			background-color: #2488c7;
+		}
+		th {
+			border-right: 1px solid #fff;
+			width: 195px;
+			height: 60px;
+			text-align: center;
+			vertical-align: middle;
+			&:last-child {
+				border: 0;
+			}
+		}
+		td {
+			background-color: #fff;
+			border-right: 1px solid #7c7c7c;
+			color: #000;
+			width: 195px;
+			height: 60px;
+			text-align: center;
+			vertical-align: middle;
+			&:last-child {
+				border: 0;
+			}
+		}
+	}
+	.doc-links {
+		i {
+			@include transition();
+			&:hover {
+				@include transition();
+			}
+		}
+		ul {
+			li {
+				a {
+					font-size: 18px;
+					color: #020202;
+					font-family: $font-Light;
+				}
+			}
+		}
+	}
+
+}

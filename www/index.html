@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Улыбка</title>
+	<!-- UIKIT CSS  -->
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<link rel="stylesheet" href="css/components/slideshow.min.css">
+	<link rel="stylesheet" href="css/components/slidenav.min.css">
+	<!-- /UIKIT CSS  -->
+	<link rel="stylesheet" href="css/home.css"> <!-- CUSTOM CSS  -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!-- UIKIT JS -->
+	<script src="js/uikit.min.js"></script>
+	<script src="js/core/grid.min.js"></script>
+	<script src="js/components/slideshow.min.js"></script>
+	<script src="js/components/slideshow-fx.min.js"></script>
+	<script src="js/components/slideset.min.js"></script>
+	<script src="js/components/lightbox.min.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- /UIKIT JS -->
+	<!-- 3D VIWER -->
+	<!-- <script src="https://cdn.pannellum.org/2.2/pannellum.js"></script>
+	<link rel="stylesheet" href="https://cdn.pannellum.org/2.2/pannellum.css"> -->
+	<!-- /3D VIWER -->
+
+</head>
+<body>
+	<!-- NAVBAR -->
+	<nav id="navbar-header" class="uk-navbar uk-navbar-attached uk-margin-small-bottom navbar-header">
+		<ul class="uk-navbar-nav uk-hidden-large">
+			<li class="uk-parent menu-item drop" data-uk-dropdown="justify:'#navbar-header'">
+				<a href="#" >
+					<span class="uk-navbar-toggle"></span>Меню
+				</a>
+				<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+					<ul class="uk-nav uk-nav-navbar">
+						<li class="menu-item"><a href="/smile/">главная</a></li>
+						<li class="menu-item"><a href="/smile/about.html">о базе отдыха</a></li>
+						<li class="menu-item"><a href="/smile/rooms.html">номера и цены</a></li>
+						<li class="menu-item"><a href="/smile/photogallery.html">фотогалерея</a></li>
+						<li class="menu-item"><a href="/smile/stocks.html">акции</a></li>
+						<li class="menu-item"><a href="/smile/map.html">как добраться</a></li>
+						<li class="menu-item"><a href="/smile/3d.html">3d тур</a></li>
+						<li class="menu-item"><a href="/smile/faq.html">вопрос-ответ</a></li>
+						<li class="menu-item"><a href="/smile/reviews.html">отзывы</a></li>
+						<li class="menu-item"><a href="/smile/address.html">контакты</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div class="uk-container uk-container-center">
+			<ul class="uk-navbar-nav uk-navbar-content uk-visible-large menu">
+				<li class="menu-item"><a href="/smile/"><img src="img/navbar-home-icon.png" width="21" height="17" alt="navbar-home-icon.png"></a></li>
+				<li class="menu-item"><a href="/smile/about.html">о базе отдыха</a></li>
+				<li class="menu-item"><a href="/smile/rooms.html">номера и цены</a></li>
+				<li class="menu-item"><a href="/smile/photogallery.html">фотогалерея</a></li>
+				<li class="menu-item"><a href="/smile/stocks.html">акции</a></li>
+				<li class="menu-item"><a href="/smile/map.html">как добраться</a></li>
+				<li class="menu-item"><a href="/smile/3d.html">3d тур</a></li>
+				<li class="menu-item"><a href="/smile/faq.html">вопрос-ответ</a></li>
+				<li class="menu-item"><a href="/smile/reviews.html">отзывы</a></li>
+				<li class="menu-item"><a href="/smile/address.html">контакты</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- /NAVBAR -->
+	<!-- HEADER -->
+	<header id="header">
+		<div class="uk-container uk-container-center uk-margin-small-bottom uk-overflow-hidden">
+			<div class="logo-header">
+				<a href="/smile/"><img src="img/logo.png" width="99" height="73" alt="logo"></a>
+			</div>
+			<address >
+				8 (068) <b>314-73-33</b><br>8 (050) <b>454-38-48</b>
+			</address>
+			<p class="slogan uk-hidden-small">
+				Будьте нашим гостем на Азовском море в Кирилловке!
+			</p>
+		</div>
+	</header>
+	<!-- /HEADER -->
+
+	<!-- SLIDER -->
+	<section id="homepage_slider" class="uk-grid uk-overflow-hidden waves waves-white">
+		<div class="uk-slidenav-position uk-width-1-1" data-uk-slideshow="{autoplay:true,animation: 'swipe'}">
+			<ul class="uk-slideshow uk-overlay slideshow">
+
+				<li class="slide">
+					<img src="img/main-slide-1.png" width="1900" height="708" alt="main-slide-1">
+					<div class="uk-overlay-panel uk-text-center">
+						<h1>
+							<b class="h2 q">улыбка</b>
+							<p class="slile-overlay-divider">база отдыха</p>
+						</h1>
+						<p class="slide-discription">
+							большой басейн с детской зоной<br>чистый пляж
+						</p>
+					</div>
+				</li>
+				<li class="slide">
+					<img src="img/main-slide-1.png" width="1900" height="708" alt="main-slide-1">
+					<div class="uk-overlay-panel uk-text-center">
+						<h1>
+							<b class="h2 q">улыбка</b>
+							<p class="slile-overlay-divider">база отдыха</p>
+						</h1>
+						<p class="slide-discription">
+							большой басейн с детской зоной<br>чистый пляж
+						</p>
+					</div>
+				</li>
+				<li class="slide">
+					<img src="img/main-slide-1.png" width="1900" height="708" alt="main-slide-1">
+					<div class="uk-overlay-panel uk-text-center">
+						<h1>
+							<b class="h2 q">улыбка</b>
+							<p class="slile-overlay-divider">база отдыха</p>
+						</h1>
+						<p class="slide-discription">
+							большой басейн с детской зоной<br>чистый пляж
+						</p>
+					</div>
+				</li>
+			</ul>
+			<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+			<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+		</div>
+	</section>
+	<!-- /SLIDER -->
+
+	<!-- ABOUT -->
+	<section id="homepage_about" class="waves waves-pink">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+				<div class="uk-width-1-1">
+					<h2 class="uk-text-center">
+						о базе
+					</h2>
+					<p class=" uk-text-center">
+						Золотой песок, чистое море, ласковое солнце и удобное жилье – кто из вас не мечтал о таком отдыхе?<br>Мы готовы воплотить ваши мечты в реальность! Для этого нужно совсем немного: всего лишь приехать на базу отдыха «Улыбка»! «Почему именно сюда, – спросите вы, – «Ведь в районе поселка Кирилловка на побережье Азовского моря существует немало мест, где можно остановиться». Да, согласны: баз, санаториев и просто частных домов много. Но везде ли имеются столь комфортные для проживания условия?
+					</p>
+					<p class="uk-text-center uk-text-primary">
+						База отдыха «Улыбка» – это идеальная возможность полноценно отдохнуть.
+					</p>
+				</div>
+			</div>
+			<div class="uk-grid uk-grid-small about-menu">
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-flex uk-flex-center">
+					<figure>
+						<a href="#" class="uk-thumbnail uk-overlay">
+							<div class="img-frame"><img  src="img/about-galery.png" alt="about-galery"></div>
+							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+								<img src="img/about-galery-overlay.png" width="65" height="55" alt="about-galery-overlay">
+							</div>
+						</a>
+						<figcaption class="uk-thumbnail-caption">
+							галерея
+						</figcaption>
+					</figure>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-flex uk-flex-center">
+					<figure>
+						<a href="#" class="uk-thumbnail uk-overlay">
+							<div class="img-frame"><img  src="img/about-cams.png" alt="about-cams"></div>
+							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+								<img src="img/about-cams-overlay.png" width="55" height="68" alt="about-cams-overlay">
+							</div>
+						</a>
+						<figcaption class="uk-thumbnail-caption">
+							вебкамера
+						</figcaption>
+					</figure>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-flex uk-flex-center">
+					<figure>
+						<a href="#" class="uk-thumbnail uk-overlay">
+							<div class="img-frame"><img src="img/about-3d.png" alt="about-3d" ></div>
+							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+								<img src="img/about-3d-overlay.png" width="66" height="74" alt="about-3d-overlay">
+							</div>
+						</a>
+						<figcaption class="uk-thumbnail-caption">
+							3d тур
+						</figcaption>
+					</figure>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-flex uk-flex-center">
+					<figure>
+						<a href="#" class="uk-thumbnail uk-overlay">
+							<div class="img-frame"><img  src="img/about-video.png" alt="about-video"></div>
+							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+								<img src="img/about-video-overlay.png" width="89" height="58" alt="about-video-overlay">
+							</div>
+						</a>
+						<figcaption class="uk-thumbnail-caption">
+							видео
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- /ABOUT -->
+
+	<!-- ADVANTAGES -->
+	<section id="homepage_advantages" class="uk-overflow-hidden waves waves-white no-bg-image">
+		<div class="uk-container uk-container-center uk-flex uk-flex-center uk-flex-column uk-flex-middle ">
+			<h2 class="uk-text-center uk-visible-large">
+				наши<br>сервисы
+			</h2>
+			<ul class="uk-grid advantages-list">
+				<li class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1 advantages-item advantages-item-1 ">
+					<a href="#">
+						<figure>
+							<div class="img"><img src="img/advantages-pool.png" width="184" height="184" alt="advantages-pool"></div>
+							<figcaption>Большой бассейн<br>для детей и взрослых</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1 advantages-item advantages-item-2 right">
+					<a href="#">
+						<figure>
+							<div class="img"><img src="img/advantages-comfort.png" width="184" height="184" alt="advantages-comfort"></div>
+							<figcaption>Комфортабельные<br>номера</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1 advantages-item advantages-item-3">
+					<a href="#">
+						<figure>
+							<div class="img"><img src="img/advantages-food.png" width="188" height="188" alt="advantages-food"></div>
+							<figcaption>Питание<br>на любой вкус!</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1 advantages-item advantages-item-4 right">
+					<a href="#">
+						<figure>
+							<div class="img"><img src="img/advantages-tv-www.png" width="188" height="188" alt="advantages-tv-www"></div>
+							<figcaption>Телевидение<br>и Интернет</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1 advantages-item advantages-item-5">
+					<a href="#">
+						<figure>
+							<div class="img"><img src="img/advantages-helth.png" width="188" height="188" alt="advantages-helth"></div>
+							<figcaption>Оздоровление</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1 advantages-item advantages-item-6 right">
+					<a href="#">
+						<figure>
+							<div class="img"><img src="img/advatages-beach.png" width="188" height="188" alt="advatages-beach"></div>
+							<figcaption>Чистый пляж</figcaption>
+						</figure>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- /ADVANTAGES -->
+
+	<!-- ROOMS -->
+	<section id="homepage_rooms" class="waves waves-blue">
+		<div class="uk-container uk-container-center">
+			<h2 class="uk-text-center">
+				Наши номера
+			</h2>
+			<div class="uk-grid uk-flex uk-flex-center">
+				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription">
+							<div class="img-frame"><img  src="img/rooms-for2.png" alt="rooms-for2"></div>
+							<figcaption>
+								<h3>
+									2-х  местный
+								</h3>
+								<p>
+									Однокомнатный номер, 18 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription">
+							<div class="img-frame"><img  src="img/rooms-for3.png" alt="rooms-for3"></div>
+							<figcaption>
+								<h3>
+									3-х  местный
+								</h3>
+								<p>
+									Однокомнатный номер, 18 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription">
+							<div class="img-frame"><img  src="img/rooms-for3-4.png" alt="rooms-for3-4"></div>
+							<figcaption>
+								<h3>
+									3-х, 4-х местный
+								</h3>
+								<p>
+									Однокомнатный номер, 36 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription small">
+							<div class="img-frame"><img  src="img/rooms-for4-6.png" alt="rooms-for4-6"></div>
+							<figcaption>
+								<h3>
+									4-х, 6-ти местный
+								</h3>
+								<p>
+									Однокомнатный номер, 36 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription small">
+							<div class="img-frame"><img  src="img/rooms-for4-6-2.png"  alt="rooms-for4-6-2"></div>
+							<figcaption>
+								<h3>
+									4-х, 6-ти местный
+								</h3>
+								<p>
+									Однокомнатный номер, 36 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription small">
+							<div class="img-frame"><img  src="img/rooms-for4.png"  alt="rooms-for4"></div>
+							<figcaption>
+								<h3>
+									4-х местный
+								</h3>
+								<p>
+									Однокомнатный номер, 36 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1">
+					<a href="/smile/room.html">
+						<figure class="photo-with-discription small">
+							<div class="img-frame"><img  src="img/roooms-forVIP.png"  alt="roooms-forVIP"></div>
+							<figcaption>
+								<h3>
+									VIP
+								</h3>
+								<p>
+									Однокомнатный номер, 72 м<sup>2</sup>
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /ROOMS -->
+
+	<!-- ENTERTAINMENT -->
+	<section id="homepage_entertainment" class="uk-overflow-hidden">
+		<div class="background-blue-d">
+			<div class="uk-container uk-container-center">
+				<h2 class="uk-text-center">
+					Развлечения
+				</h2>
+				<div class="uk-grid">
+					<div class="uk-width-large-1-2 uk-width-medium-1-1 photo photo-1">
+						<div class="perview-container">
+							<ul>
+								<li><div class="img-frame"><img   src="img/entertainmet-waterpark-2.png" width="283" height="208" alt="entertainmet-waterpark-2"></div></li>
+								<li><div class="img-frame"><img   src="img/entertainmet-waterpark-3.png" width="240" height="190" alt="entertainmet-waterpark-3"></div></li>
+								<li><div class="img-frame"><img   src="img/entertainmet-waterpark-1.png" width="312" height="246" alt="entertainmet-waterpark-1"></div></li>
+							</ul>
+						</div>
+					</div>
+					<div class="uk-width-large-1-2 uk-width-medium-1-1">
+						<h3>
+							Аквапарк 
+						</h3>
+						<p>
+							Золотой песок, чистое море, ласковое солнце и удобное жилье – кто из вас не мечтал о таком отдыхе? Мы готовы воплотить ваши мечты в реальность! Для этого нужно совсем немного: всего лишь приехать на базу отдыха «Улыбка»! «Почему именно сюда, – спросите вы, – «Ведь в районе поселка Кирилловка на побережье Азовского моря существует немало мест, где можно остановиться». Да, согласны: баз, санаториев и просто частных
+						</p>
+						<a href="#" class="uk-button">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="background-sand">
+			<div class="uk-container uk-container-center uk-text-right">	
+
+				<div class="uk-grid">
+					<div class="uk-width-large-1-2 uk-push-1-2 uk-width-medium-1-1  photo photo-2">
+						<div class="perview-container">
+							<ul>
+								<li><div class="img-frame"><img   src="img/entertainmet-waterbanana.png" width="240" height="190" alt="entertainmet-waterbanana"></div></li>
+								<li><div class="img-frame"><img   src="img/entertainmet-waterskiing.png" width="240" height="190" alt="entertainmet-waterskiing"></div></li>
+								<li><div class="img-frame"><img   src="img/entertainmet-waterbike.png" width="312" height="246" alt="entertainmet-waterbike"></div></li>
+							</ul>
+						</div>
+					</div>
+					<div class="uk-width-large-1-2 uk-pull-1-2 uk-width-medium-1-1 ">
+						<h3>
+							водные лыжи, аквабайки бананы, катамараны
+						</h3>
+						<p>
+							Золотой песок, чистое море, ласковое солнце и удобное жилье – кто из вас не мечтал о таком отдыхе? Мы готовы воплотить ваши мечты в реальность! Для этого нужно совсем немного: всего лишь приехать на базу отдыха «Улыбка»! «Почему именно сюда, – спросите вы, – «Ведь в районе поселка Кирилловка на побережье Азовского моря существует немало мест, где можно остановиться». Да, согласны: баз, санаториев и просто частных
+						</p>
+						<a href="#" class="uk-button">Подробнее</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="background-blue">
+			<div class="uk-container uk-container-center entertainment-3">
+				<div class="uk-grid">
+					<div class="uk-width-large-1-2 uk-width-medium-1-1 photo photo-3">
+						<div class="perview-container">
+							<ul> 
+								<li><div class="img-frame"><img   src="img/entertainmet-pool.png" width="312" height="246" alt="entertainmet-pool"></div></li>
+								<li><div class="img-frame"><img   src="img/entertainmet-sea-lion.jpg" width="240" height="190" alt="maxresdefault-sea-lion"></div></li>
+								<li><div class="img-frame"><img   src="img/entertainmet-dilfins.png" width="240" height="190" alt="entertainmet-dilfins"></div></li>
+							</ul> 
+						</div>
+					</div>
+					<div class="uk-width-large-1-2 uk-width-medium-1-1 ">
+						<h3>
+							Дельфинарий 
+						</h3>
+						<p>
+							Золотой песок, чистое море, ласковое солнце и удобное жилье – кто из вас не мечтал о таком отдыхе? Мы готовы воплотить ваши мечты в реальность! Для этого нужно совсем немного: всего лишь приехать на базу отдыха «Улыбка»! «Почему именно сюда, – спросите вы, – «Ведь в районе поселка Кирилловка на побережье Азовского моря существует немало мест, где можно остановиться». Да, согласны: баз, санаториев и просто частных
+						</p>
+						<a href="#" class="uk-button">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /ENTERTAINMENT -->
+
+	<!-- ABOUT2 -->
+	<section id="homepage_about2">
+		<div class="uk-container uk-container-center">
+			<h2 class="uk-text-center">Заголовок</h2>
+			<div class="uk-grid uk-flex uk-flex-center uk-text-center ">
+				<a href="#" class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+					<figure >
+						<div class="uk-thumbnail uk-border-circle">
+							<div class="img-frame frame-circle">
+								<img src="img/about2-azov.png" width="248" height="248" alt="about2-azov" >
+							</div>
+						</div>	
+						<figcaption>Об Азовском море</figcaption>
+					</figure>
+				</a>
+				<a href="#" class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+					<figure >
+						<div class="uk-thumbnail uk-border-circle">
+							<div class="img-frame frame-circle">
+								<img src="img/about2-fedotov.png" width="248" height="247" alt="about2-fedotov" >
+							</div>
+						</div>
+						<figcaption>О Федотовой косе</figcaption>
+					</figure>
+				</a>
+				<a href="#" class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+					<figure >
+						<div class="uk-thumbnail uk-border-circle">
+							<div class="img-frame frame-circle">
+								<img src="img/about2-kirillovka.png" width="248" height="247" alt="about2-kirillovka" class="">
+							</div>
+						</div>
+						<figcaption>О Кириловке</figcaption>
+					</figure>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- /ABOUT2 -->
+
+	<!-- 3D  -->
+	<section class="canvas-iframe">
+		<iframe width="100%" height="600" src="http://www.azov.zp.ua/kirillovka/ulibka/vt/virtualtour.html" allowfullscreen></iframe>
+	</section>
+	<!-- /3D -->
+
+	<!-- FEEDBACKS -->
+	<section id="homepage_feedbacks" class="waves waves-blue">
+		<div class="uk-container uk-container-center">
+			<h2 class="uk-text-center">
+				отзывы наших клиентов
+			</h2>
+			<div class="uk-grid">
+				<div class="uk-width-8-10 uk-container-center" data-uk-slideset="{small: 1, medium: 2, large: 3,animation: 'scale', duration: 100}">
+					<div class="uk-slidenav-position">
+						<ul class="uk-grid uk-slideset">
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Дарья
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Отдохнули просто отлично, Сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номр получил чистый уютный, не рассчитывали даже на такой комфорт.<br>Обязательно приедем ещё раз!
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Николай
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Были первый раз, сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номера понравились, не рассчитывали даже на такой комфорт.<br>Спасибо за прекрасныйо отдых!!!
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Света
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Уже второй раз приезжаем на эту базу. Радует что есть детская площадка и аниматоры. Питание отличное, сервис на пять. Рекомендовали нашим друзьям и товарищам. Уверена приедем ещё не раз.<br>Спасибо вам за отдых.
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Дарья
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Отдохнули просто отлично, Сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номр получил чистый уютный, не рассчитывали даже на такой комфорт.<br>Обязательно приедем ещё раз!
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Дарья
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Отдохнули просто отлично, Сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номр получил чистый уютный, не рассчитывали даже на такой комфорт.<br>Обязательно приедем ещё раз!
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Дарья
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Отдохнули просто отлично, Сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номр получил чистый уютный, не рассчитывали даже на такой комфорт.<br>Обязательно приедем ещё раз!
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Дарья
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Отдохнули просто отлично, Сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номр получил чистый уютный, не рассчитывали даже на такой комфорт.<br>Обязательно приедем ещё раз!
+										</p>
+									</div>
+								</article>
+							</li>
+							<li>
+								<article class="uk-comment">
+									<header class="uk-comment-header">
+										<h4 class="uk-comment-title uk-text-center">
+											Дарья
+										</h4>
+									</header>
+									<div class="uk-comment-body">
+										<p class="uk-text-center">
+											Отдохнули просто отлично, Сервис на высоте, песок на пляже чистый. Мусор на пляже регулярно обираеться. Персонал порадовал своей приветливостью и улыбками. Номр получил чистый уютный, не рассчитывали даже на такой комфорт.<br>Обязательно приедем ещё раз!
+										</p>
+									</div>
+								</article>
+							</li>
+						</ul>
+						<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideset-item="previous"></a>
+						<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideset-item="next"></a>
+					</div>
+				</div>
+			</div>
+			<div class="uk-grid">
+				<div class="uk-width-1-1 uk-text-center">
+					<a href="#" class="uk-button ">Все отзывы</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /FEEDBACKS -->
+
+	<!-- CONTACTS -->
+	<section id="homepage_contacts" class=" no-bg-image">
+		<div class="uk-container uk-container-center">
+			<h2 class="uk-text-center">контакты</h2>
+			<address>
+				<ul class="uk-text-center">
+					<li class="phone"> <span>+38 (099) 970-73-92,</span>  <span>+38 (098) 497-87-55,</span>  <span>+38 (050) 486-15-11</span></li>
+					<li class="email">ivliev@optima.com.ua </li>
+					<li class="addr">Украина, Запорожская область, Акимовский район, пгт. Кирилловка,<br>ул. Федотова Коса, 5, База отдыха "Улыбка"</li>
+				</ul>
+			</address>
+		</div>
+	</section>
+	<!-- /CONTACTS -->
+
+	<!-- MAP -->
+	<section class="canvas-iframe">
+		<iframe height="460" src="https://www.google.com/maps/embed/v1/place?q=place_id:EnnQstGD0LvQuNGG0Y8g0KTQtdC00L7RgtC-0LLQsCDQutC-0YHQsCwgNSwg0JrQuNGA0LjQu9GW0LLQutCwLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LAsIDcyNTYz&key=AIzaSyBdAfW-efquOJsAC42iEVaKOLr32fJXTc0" allowfullscreen></iframe>
+	</section>
+	<!-- /MAP -->
+
+	<!-- FOOTER -->	
+	<footer class="no-margin">
+		<p class="uk-text-center">
+			<a href="/smile/"><img src="img/footer-logo.png" width="50" height="37" alt="footer-logo"></a>
+			&copy; 2015 База отдыха "Улыбка"
+		</p>
+	</footer>
+	<!-- /FOOTER -->
+	
+</body>
+</html>

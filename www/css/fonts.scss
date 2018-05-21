@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'PFDinDisplayPro-Regular';
+	src: url('../fonts/PFDinDisplayPro-Regular.eot');
+	src: url('../fonts/PFDinDisplayPro-Regular.woff') format('woff'), url('../fonts/PFDinDisplayPro-Regular.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Regular.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PFDinDisplayPro-Black';
+	src: url('../fonts/PFDinDisplayPro-Black.eot');
+	src: url('../fonts/PFDinDisplayPro-Black.woff') format('woff'), url('../fonts/PFDinDisplayPro-Black.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+/* @font-face {
+	font-family: 'PFDinDisplayPro-BlackItalic';
+	src: url('../fonts/PFDinDisplayPro-BlackItalic.eot');
+	src: url('../fonts/PFDinDisplayPro-BlackItalic.woff') format('woff'), url('../fonts/PFDinDisplayPro-BlackItalic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-BlackItalic.svg') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}*/
+@font-face {
+	font-family: 'PFDinDisplayPro-Bold';
+	src: url('../fonts/PFDinDisplayPro-Bold.eot');
+	src: url('../fonts/PFDinDisplayPro-Bold.woff') format('woff'), url('../fonts/PFDinDisplayPro-Bold.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PFDinDisplayPro';
+	src: url('../fonts/PFDinDisplayPro-BoldItalic.eot');
+	src: url('../fonts/PFDinDisplayPro-BoldItalic.woff') format('woff'), url('../fonts/PFDinDisplayPro-BoldItalic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-BoldItalic.svg') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+/* @font-face {
+	font-family: 'PFDinDisplayPro-ExtraThin';
+	src: url('../fonts/PFDinDisplayPro-ExtraThin.eot');
+	src: url('../fonts/PFDinDisplayPro-ExtraThin.woff') format('woff'), url('../fonts/PFDinDisplayPro-ExtraThin.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-ExtraThin.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+} */
+/* @font-face {
+	font-family: 'PFDinDisplayPro-ExtraThinItalic';
+	src: url('../fonts/PFDinDisplayPro-ExtraThinItalic.eot');
+	src: url('../fonts/PFDinDisplayPro-ExtraThinItalic.woff') format('woff'), url('../fonts/PFDinDisplayPro-ExtraThinItalic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-ExtraThinItalic.svg') format('svg');
+	font-weight: 100;
+	font-style: italic;
+} */
+@font-face {
+	font-family: 'PFDinDisplayPro-Light';
+	src: url('../fonts/PFDinDisplayPro-Light.eot');
+	src: url('../fonts/PFDinDisplayPro-Light.woff') format('woff'), url('../fonts/PFDinDisplayPro-Light.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+/* @font-face {
+	font-family: 'PFDinDisplayPro-Italic';
+	src: url('../fonts/PFDinDisplayPro-Italic.eot');
+	src: url('../fonts/PFDinDisplayPro-Italic.woff') format('woff'), url('../fonts/PFDinDisplayPro-Italic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Italic.svg') format('svg');
+	font-weight: 500;
+	font-style: italic;
+} */
+@font-face {
+	font-family: 'PFDinDisplayPro-LightItalic';
+	src: url('../fonts/PFDinDisplayPro-LightItalic.eot');
+	src: url('../fonts/PFDinDisplayPro-LightItalic.woff') format('woff'), url('../fonts/PFDinDisplayPro-LightItalic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-LightItalic.svg') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+/* @font-face {
+	font-family: 'PFDinDisplayPro-Medium';
+	src: url('../fonts/PFDinDisplayPro-Medium.eot');
+	src: url('../fonts/PFDinDisplayPro-Medium.woff') format('woff'), url('../fonts/PFDinDisplayPro-Medium.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Medium.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+} */
+/* @font-face {
+	font-family: 'PFDinDisplayPro-MediumItalic';
+	src: url('../fonts/PFDinDisplayPro-MediumItalic.eot');
+	src: url('../fonts/PFDinDisplayPro-MediumItalic.woff') format('woff'), url('../fonts/PFDinDisplayPro-MediumItalic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-MediumItalic.svg') format('svg');
+	font-weight: 600;
+	font-style: italic;
+} */
+
+@font-face {
+	font-family: 'PFDinDisplayPro-Thin';
+	src: url('../fonts/PFDinDisplayPro-Thin.eot');
+	src: url('../fonts/PFDinDisplayPro-Thin.woff') format('woff'), url('../fonts/PFDinDisplayPro-Thin.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-Thin.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+/* @font-face {
+	font-family: 'PFDinDisplayPro-ThinItalic';
+	src: url('../fonts/PFDinDisplayPro-ThinItalic.eot');
+	src: url('../fonts/PFDinDisplayPro-ThinItalic.woff') format('woff'), url('../fonts/PFDinDisplayPro-ThinItalic.ttf') format('truetype'), url('../fonts/PFDinDisplayPro-ThinItalic.svg') format('svg');
+	font-weight: 200;
+	font-style: italic;
+} */
+
+$font-Regular: 'PFDinDisplayPro-Regular';
+$font-Black: 'PFDinDisplayPro-Black';
+/* $font-BlackItalic: 'PFDinDisplayPro-BlackItalic'; */
+$font-Bold: 'PFDinDisplayPro-Bold';
+$font-BoldItalic: 'PFDinDisplayPro-BoldItalic';
+/* $font-ExtraThin: 'PFDinDisplayPro-ExtraThin'; */
+/* $font-ExtraThinItalic: 'PFDinDisplayPro-ExtraThinItalic'; */
+$font-Light: 'PFDinDisplayPro-Light';
+/* $font-Italic: 'PFDinDisplayPro-Italic'; */
+$font-LightItalic: 'PFDinDisplayPro-LightItalic';
+/* $font-Medium: 'PFDinDisplayPro-Medium'; */
+/* $font-MediumItalic: 'PFDinDisplayPro-MediumItalic'; */
+$font-Thin: 'PFDinDisplayPro-Thin';
+/* $font-ThinItalic: 'PFDinDisplayPro-ThinItalic'; */

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Улыбка</title>
+
+	<!-- UIKIT CSS  -->
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<link rel="stylesheet" href="css/components/slideshow.min.css">
+	<link rel="stylesheet" href="css/components/slidenav.min.css">
+
+	
+
+	<!-- /UIKIT CSS  -->
+
+	<link rel="stylesheet" href="css/photogallary.css"> <!-- CUSTOM CSS  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<!-- UIKIT JS -->
+	<script src="js/uikit.min.js"></script>
+	<script src="js/core/grid.min.js"></script>
+	<script src="js/components/slideshow.min.js"></script>
+	<script src="js/components/slideshow-fx.min.js"></script>
+	<script src="js/components/slideset.min.js"></script>
+	<script src="js/components/lightbox.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+
+	<!-- /UIKIT JS -->
+
+	<!-- 3D VIWER -->
+	<!-- <script src="https://cdn.pannellum.org/2.2/pannellum.js"></script>
+	<link rel="stylesheet" href="https://cdn.pannellum.org/2.2/pannellum.css"> -->
+	<!-- /3D VIWER -->
+
+</head>
+<body>
+	<!-- NAVBAR -->
+	<nav id="navbar-header" class="uk-navbar uk-navbar-attached uk-margin-small-bottom navbar-header">
+		<ul class="uk-navbar-nav uk-hidden-large">
+			<li class="uk-parent menu-item drop" data-uk-dropdown="justify:'#navbar-header'">
+				<a href="#" >
+					<span class="uk-navbar-toggle"></span>Меню
+				</a>
+				<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+					<ul class="uk-nav uk-nav-navbar">
+						<li class="menu-item"><a href="/smile/">главная</a></li>
+						<li class="menu-item"><a href="/smile/about.html">о базе отдыха</a></li>
+						<li class="menu-item"><a href="/smile/rooms.html">номера и цены</a></li>
+						<li class="menu-item"><a href="/smile/photogallery.html">фотогалерея</a></li>
+						<li class="menu-item"><a href="/smile/stocks.html">акции</a></li>
+						<li class="menu-item"><a href="/smile/map.html">как добраться</a></li>
+						<li class="menu-item"><a href="/smile/3d.html">3d тур</a></li>
+						<li class="menu-item"><a href="/smile/faq.html">вопрос-ответ</a></li>
+						<li class="menu-item"><a href="/smile/reviews.html">отзывы</a></li>
+						<li class="menu-item"><a href="/smile/address.html">контакты</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div class="uk-container uk-container-center">
+			<ul class="uk-navbar-nav uk-navbar-content uk-visible-large menu">
+				<li class="menu-item"><a href="/smile/"><img src="img/navbar-home-icon.png" width="21" height="17" alt="navbar-home-icon.png"></a></li>
+				<li class="menu-item"><a href="/smile/about.html">о базе отдыха</a></li>
+				<li class="menu-item"><a href="/smile/rooms.html">номера и цены</a></li>
+				<li class="menu-item"><a href="/smile/photogallery.html">фотогалерея</a></li>
+				<li class="menu-item"><a href="/smile/stocks.html">акции</a></li>
+				<li class="menu-item"><a href="/smile/map.html">как добраться</a></li>
+				<li class="menu-item"><a href="/smile/3d.html">3d тур</a></li>
+				<li class="menu-item"><a href="/smile/faq.html">вопрос-ответ</a></li>
+				<li class="menu-item"><a href="/smile/reviews.html">отзывы</a></li>
+				<li class="menu-item"><a href="/smile/address.html">контакты</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- /NAVBAR -->
+	<!-- HEADER -->
+	<header id="header">
+		<div class="uk-container uk-container-center uk-margin-small-bottom uk-overflow-hidden">
+			<div class="logo-header">
+				<a href="/smile/"><img src="img/logo.png" width="99" height="73" alt="logo"></a>
+			</div>
+			<address >
+				8 (068) <b>314-73-33</b><br>8 (050) <b>454-38-48</b>
+			</address>
+			<p class="slogan uk-hidden-small">
+				Будьте нашим гостем на Азовском море в Кирилловке!
+			</p>
+		</div>
+	</header>
+	<!-- /HEADER -->
+	
+	<!-- CHILD PAGE HEADER -->
+	<section id="child-page-header">
+		<div class="uk-container uk-container-center">
+			<ul class="uk-breadcrumb">
+				<li><a href="/smile/">Главная</a></li>
+				<li class="uk-active"><span>Фотогалерея</span></li>
+			</ul>
+		</div>
+		<div class="page-header">
+			<div  class="uk-container uk-container-center">
+				<h1>
+					Фотогалерея
+				</h1>
+			</div>
+		</div>
+	</section>
+	<!-- /CHILD PAGE HEADER -->
+
+	<!-- GALLERY -->
+	<section id="page_gallery">
+		<div class="uk-container uk-container-center uk-margin-large-bottom uk-text-center small">
+			<div class="uk-grid uk-flex uk-flex-center gallery1">
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-1.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-1.png" alt="gallery1-photo-1"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-2.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-2.png" alt="gallery1-photo-2"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-3.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-3.png" alt="gallery1-photo-3"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-4.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-4.png" alt="gallery1-photo-4"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-5.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-5.png" alt="gallery1-photo-5"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-6.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-6.png" alt="gallery1-photo-6"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-7.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-7.png" alt="gallery1-photo-7"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-8.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-8.png" alt="gallery1-photo-8"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-5.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-5.png" alt="gallery1-photo-5"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-6.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-6.png" alt="gallery1-photo-6"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-7.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-7.png" alt="gallery1-photo-7"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-8.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-8.png" alt="gallery1-photo-8"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-5.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-5.png" alt="gallery1-photo-5"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-6.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-6.png" alt="gallery1-photo-6"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-7.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-7.png" alt="gallery1-photo-7"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-8.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-8.png" alt="gallery1-photo-8"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-5.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-5.png" alt="gallery1-photo-5"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-6.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-6.png" alt="gallery1-photo-6"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-7.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-7.png" alt="gallery1-photo-7"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-8.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-8.png" alt="gallery1-photo-8"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-5.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-5.png" alt="gallery1-photo-5"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-6.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-6.png" alt="gallery1-photo-6"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-7.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-7.png" alt="gallery1-photo-7"></div>
+				</a></div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-top"><a href="img/gallery1-photo-8.png" data-lightbox-type="image" data-uk-lightbox="{group:'group-1'}">
+					<div class="img-frame"><img src="img/gallery1-photo-8.png" alt="gallery1-photo-8"></div>
+				</a></div>
+
+			</div>
+			<ul class="uk-pagination uk-margin-large-top uk-container-center">
+				<li class="uk-margin-small-right control-button uk-hidden-small">
+					<a href="#">в начало</a>
+				</li>
+				<li class="uk-margin-right control-button uk-hidden-small">
+					<a href="#">назад</a>
+				</li>
+				<li class="uk-margin-small-right control-button uk-visible-small">
+					<a href="#"> << </a>
+				</li>
+				<li class="uk-margin-right control-button uk-visible-small">
+					<a href="#"> < </a>
+				</li>
+				<li class="uk-active">
+					<span>1</span>
+				</li>
+				<li>
+					<a href="#">2</a>
+				</li>
+				<li>
+					<a href="#">3</a>
+				</li>
+				<li>
+					<a href="#">4</a>
+				</li>
+				<li class="uk-margin-left uk-margin-small-right control-button uk-visible-small">
+					<a href="#"> > </a>
+				</li>
+				<li class="uk-margin-small-left control-button uk-visible-small">
+					<a href="#"> >> </a>
+				</li>
+				<li class="uk-margin-left uk-margin-small-right control-button uk-hidden-small">
+					<a href="#">вперёд</a>
+				</li>
+				<li class="uk-margin-small-left control-button uk-hidden-small">
+					<a href="#">в конец</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- /GALLERY -->
+
+
+	<!-- FOOTER -->	
+	<footer class="border">
+		<p class="uk-text-center">
+			<a href="/smile/"><img src="img/footer-logo.png" width="50" height="37" alt="footer-logo"></a>
+			&copy; 2015 База отдыха "Улыбка"
+		</p>
+	</footer>
+	<!-- /FOOTER -->
+	
+</body>
+</html>

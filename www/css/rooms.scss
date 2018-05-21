@@ -1,0 +1,42 @@
+@import "core";
+
+#page_rooms {
+	.uk-container {
+		margin-top: -25px;
+	}
+	.uk-grid {
+		margin-left: -45px;
+	}
+	h2 {
+
+		color: #545454;
+		font-family: $font-Light;
+		font-size: 45px;
+		line-height: 47px;
+		text-transform: uppercase;
+		margin-bottom: 50px;
+	}
+	a {
+		@include transition();
+		display: inline-block;
+		margin-left: 10px;
+		margin-top: 25px;
+		width: 100%;
+		&:hover{
+			box-shadow: 1.7px 2.5px 7px #7b7b7b;
+			@include transition();
+			text-decoration: none;
+
+		}
+
+	}
+}
+@media only screen and (max-width: 959px) {
+
+	#page_rooms figure figcaption {
+		h3,p {
+			font-size: 1.8em;
+		}
+
+	} 
+}

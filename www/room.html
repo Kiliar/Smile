@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Улыбка</title>
+
+	<!-- UIKIT CSS  -->
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<link rel="stylesheet" href="css/components/slideshow.min.css">
+	<link rel="stylesheet" href="css/components/slidenav.min.css">
+
+	
+
+	<!-- /UIKIT CSS  -->
+
+	<link rel="stylesheet" href="css/room.css"> <!-- CUSTOM CSS  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<!-- UIKIT JS -->
+	<script src="js/uikit.min.js"></script>
+	<script src="js/core/grid.min.js"></script>
+	<script src="js/components/slideshow.min.js"></script>
+	<script src="js/components/slideshow-fx.min.js"></script>
+	<script src="js/components/slideset.min.js"></script>
+	<script src="js/components/lightbox.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	
+
+	<!-- /UIKIT JS -->
+
+	<!-- 3D VIWER -->
+	<!-- <script src="https://cdn.pannellum.org/2.2/pannellum.js"></script>
+	<link rel="stylesheet" href="https://cdn.pannellum.org/2.2/pannellum.css"> -->
+	<!-- /3D VIWER -->
+
+</head>
+<body>
+	<!-- NAVBAR -->
+	<nav id="navbar-header" class="uk-navbar uk-navbar-attached uk-margin-small-bottom navbar-header">
+		<ul class="uk-navbar-nav uk-hidden-large">
+			<li class="uk-parent menu-item drop" data-uk-dropdown="justify:'#navbar-header'">
+				<a href="#" >
+					<span class="uk-navbar-toggle"></span>Меню
+				</a>
+				<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+					<ul class="uk-nav uk-nav-navbar">
+						<li class="menu-item"><a href="/smile/">главная</a></li>
+						<li class="menu-item"><a href="/smile/about.html">о базе отдыха</a></li>
+						<li class="menu-item"><a href="/smile/rooms.html">номера и цены</a></li>
+						<li class="menu-item"><a href="/smile/photogallery.html">фотогалерея</a></li>
+						<li class="menu-item"><a href="/smile/stocks.html">акции</a></li>
+						<li class="menu-item"><a href="/smile/map.html">как добраться</a></li>
+						<li class="menu-item"><a href="/smile/3d.html">3d тур</a></li>
+						<li class="menu-item"><a href="/smile/faq.html">вопрос-ответ</a></li>
+						<li class="menu-item"><a href="/smile/reviews.html">отзывы</a></li>
+						<li class="menu-item"><a href="/smile/address.html">контакты</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div class="uk-container uk-container-center">
+			<ul class="uk-navbar-nav uk-navbar-content uk-visible-large menu">
+				<li class="menu-item"><a href="/smile/"><img src="img/navbar-home-icon.png" width="21" height="17" alt="navbar-home-icon.png"></a></li>
+				<li class="menu-item"><a href="/smile/about.html">о базе отдыха</a></li>
+				<li class="menu-item"><a href="/smile/rooms.html">номера и цены</a></li>
+				<li class="menu-item"><a href="/smile/photogallery.html">фотогалерея</a></li>
+				<li class="menu-item"><a href="/smile/stocks.html">акции</a></li>
+				<li class="menu-item"><a href="/smile/map.html">как добраться</a></li>
+				<li class="menu-item"><a href="/smile/3d.html">3d тур</a></li>
+				<li class="menu-item"><a href="/smile/faq.html">вопрос-ответ</a></li>
+				<li class="menu-item"><a href="/smile/reviews.html">отзывы</a></li>
+				<li class="menu-item"><a href="/smile/address.html">контакты</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- /NAVBAR -->
+	<!-- HEADER -->
+	<header id="header">
+		<div class="uk-container uk-container-center uk-margin-small-bottom uk-overflow-hidden">
+			<div class="logo-header">
+				<a href="/smile/"><img src="img/logo.png" width="99" height="73" alt="logo"></a>
+			</div>
+			<address >
+				8 (068) <b>314-73-33</b><br>8 (050) <b>454-38-48</b>
+			</address>
+			<p class="slogan uk-hidden-small">
+				Будьте нашим гостем на Азовском море в Кирилловке!
+			</p>
+		</div>
+	</header>
+	<!-- /HEADER -->
+
+	<!-- CHILD PAGE HEADER -->
+	<section id="child-page-header">
+		<div class="uk-container uk-container-center">
+			<ul class="uk-breadcrumb">
+				<li><a href="/smile/">Главная</a></li>
+				<li><a href="/smile/rooms.html">Номера</a></li>
+				<li class="uk-active"><span>Номер люкс</span></li>
+			</ul>
+		</div>
+		<div class="page-header">
+			<div class="uk-container uk-container-center">
+				<h1>
+					Номера
+				</h1>
+			</div>
+		</div>
+	</section>
+	<!-- /CHILD PAGE HEADER -->
+
+	<!-- ROOM -->
+	<section id="page_room" class=" waves waves-pink">
+		<div class="uk-container uk-container-center">
+			<h2>
+				номер люкс
+			</h2>
+			<div class="uk-grid">
+				<div class="uk-width-large-7-10 uk-width-1-1">
+					<div class="uk-slidenav-position uk-margin-bottom" data-uk-slideshow="{autoplay:true,animation: 'swipe'}">
+						<ul class="uk-slideshow">
+							<li>
+								<a href="img/room-slide.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'group-room'}">
+									<div class="canvas-slide">
+										<div class="canvas-img">
+											<div class="img-frame">
+												<img src="img/room-slide.jpg" alt="room-slide">
+											</div>
+										</div>
+										<img src="img/room-slide.jpg" alt="room-slide" class="slide-bg">
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="img/room-slide.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'group-room'}">
+									<div class="canvas-slide">
+										<div class="canvas-img">
+											<div class="img-frame">
+												<img src="img/room-slide.jpg" alt="room-slide">
+											</div>
+										</div>
+										<img src="img/room-slide.jpg" alt="room-slide" class="slide-bg">
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="img/room-slide.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'group-room'}">
+									<div class="canvas-slide">
+										<div class="canvas-img">
+											<div class="img-frame">
+												<img src="img/room-slide.jpg" alt="room-slide">
+											</div>
+										</div>
+										<img src="img/room-slide.jpg" alt="room-slide" class="slide-bg">
+									</div>
+								</a>
+							</li>
+						</ul>
+						<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+						<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+					</div>
+				</div>
+				<div class="uk-width-large-3-10 uk-width-1-1 uk-margin-large-bottom uk-visible-large" >
+					<h3>
+						номера
+					</h3>
+					<ul class="uk-list uk-list-line rooms-list">
+						<li class="room-item"><a href="#">Двухместный</a></li>
+						<li class="room-item"><a href="#">Трёхместный</a></li>
+						<li class="room-item"><a href="#">Трёх-четырёхместный</a></li>
+						<li class="room-item"><a href="#">Четырёх-шестиместный</a></li>
+						<li class="room-item"><a href="#">Четырёх-шестиместный</a></li>
+						<li class="room-item"><a href="#">Четырёхместный</a></li>
+						<li class="room-item"><a href="#">VIP</a></li>
+					</ul>
+				</div>
+
+				<div id="dropdown-list" class="uk-button-dropdown uk-width-1-1 uk-margin-bottom uk-hidden-large" data-uk-dropdown="{mode:'click', justify : '#dropdown-list'}">
+					<h3>
+						номера
+						<i class="uk-icon-caret-down"></i>
+					</h3>
+					<div class="uk-dropdown uk-dropdown-bottom">
+						<ul class="uk-nav uk-nav-dropdown uk-list uk-list-line rooms-list">
+							<li class="room-item"><a href="#">Двухместный</a></li>
+							<li class="room-item"><a href="#">Трёхместный</a></li>
+							<li class="room-item"><a href="#">Трёх-четырёхместный</a></li>
+							<li class="room-item"><a href="#">Четырёх-шестиместный</a></li>
+							<li class="room-item"><a href="#">Четырёх-шестиместный</a></li>
+							<li class="room-item"><a href="#">Четырёхместный</a></li>
+							<li class="room-item"><a href="#">VIP</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<p class="description-short uk-margin-bottom">
+				Трёхкомнатный VIP номер, 72 м<sup>2</sup>
+			</p>
+			<dl class="uk-margin-top uk-description-list-line">
+				<dt class="uk-margin-bottom  dl-big">описание номера</dt>
+				<dd class="uk-margin-bottom dl-big">Огромный номер VIP уровня. Номер состоит из трех комнат: гостинной и двух спален.</dd>
+				<dt class="uk-margin-top">В первой спальне:</dt>
+				<dd class="uk-margin-small-top">удобная двуспальная кровать - чайный сервиз</dd>
+				<dt class="uk-margin-top">Во второй спальне:</dt>
+				<dd class="uk-margin-small-top">две односпальные кровати</dd>
+				<dt class="uk-margin-top">Во второй спальне:</dt>
+				<dd class="uk-margin-small-top">сплит система (кондиционер)</dd>
+				<dd class="uk-margin-small-top">холодильник</dd>
+				<dd class="uk-margin-small-top">угловой раскладной диван</dd>
+				<dd class="uk-margin-small-top">барная стойка</dd>
+				<dd class="uk-margin-small-top">электрочайник</dd>
+				<dd class="uk-margin-small-top">набор посуды</dd>
+			</dl>
+			<p class="description-large">Санузел расположен в номере и включает в себя душевую кабинку, раковину, унитаз. <br>Горячая и холодная вода подаются круглосуточно.<br>Также, номер оборудован отдельной террасой со стульями и столом, для отдыха и перекуров.<br>Актуальную цену вы можете узнать на этой странице
+			</p>
+		</div>
+	</section>
+	<!-- /ROOM -->
+	<!-- PRICE -->
+	<section id="page_prise">
+		<div class="uk-container uk-container-center">
+			<h2 class="uk-margin-large-top">
+				Тариф на Смежный номер «Полупансион»
+			</h2>
+			<div class="uk-overflow-container uk-margin-top">
+				<table class="uk-table uk-tab-responsive ">
+					<thead>
+						<tr>
+							<th>Кол-во человек<br>в номере</th>
+							<th>28.05-05.06</th>
+							<th>05.06-20.06</th>
+							<th>20.06-15.08</th>
+							<th>15.08-25.08</th>
+							<th>25.08-01.09</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2</td>
+							<td>730 грн</td>
+							<td>1010 грн</td>
+							<td>1210 грн</td>
+							<td>1110 грн</td>
+							<td>1010 грн</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="doc-links">
+				<i class="uk-icon-file-word-o uk-icon-hover uk-icon-justify uk-icon-small uk-margin-small-top uk-float-left uk-margin-small-right"></i>
+				<ul class="uk-list uk-margin-large-top uk-margin-large-bottom uk-overflow-hidden">
+					<li><a href="#">Скачать полный прайс-лист</a></li>
+					<li><a href="#">Внутренние Правила проживания на базе отдыха «Улыбка»</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+	<!-- /PRICE -->
+
+	<!-- FOOTER -->	
+	<footer class="border no-margin">
+		<p class="uk-text-center">
+			<a href="/smile/"><img src="img/footer-logo.png" width="50" height="37" alt="footer-logo"></a>
+			&copy; 2015 База отдыха "Улыбка"
+		</p>
+	</footer>
+	<!-- /FOOTER -->
+
+</body>
+</html>

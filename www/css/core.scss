@@ -1,0 +1,239 @@
+@import "fonts";
+@import "mixin";
+@media only screen and (max-width: 1149px) {
+	#navbar-header {
+		.menu {
+			.menu-item {
+				a {
+					padding-left: 9px!important;
+					padding-right: 9px!important;
+				}
+			}
+		}
+	}
+}
+.uk-container {
+	max-width: 1190px;
+	padding: 0 20px;
+}
+body {
+	min-width: 480px;
+}
+#navbar-header {
+	height: 60px;
+	background-color:  #2488c7;
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+	border-bottom:4px solid #1b6a98;
+	.uk-container {
+		padding: 0;
+	}
+	.drop {
+		&>a {
+			font-size: 24px;
+			line-height: 12px;
+			font-family: $font-Bold;
+			@include transition();
+		}
+		.uk-dropdown .uk-nav {
+			margin: 0;
+		}
+		.uk-navbar-toggle {
+			height: auto;
+			line-height: 56px;
+			font-size: 23px;
+			padding-left:0; 
+		}
+		&.uk-open>a {
+			background-color:  #2488c7;
+			@include transition();
+			& .uk-navbar-toggle:after {
+				content: "\f00d";
+				@include transition();
+			}
+		}
+		.uk-dropdown {
+			margin-top: 4px;
+			background: #2488c7;
+			padding: 0;
+			.menu-item {
+				border: 0;
+				border-bottom: 1px solid #2f99db;
+				list-style-type: disc;
+				list-style-position: inside;
+				color: #fff;
+				padding-left: 20px;
+				font-size: 24px;
+
+				&:hover,&:focus,{
+					background-color: #2e9ade;
+					@include transition();
+				}
+				&:active{
+					background:inherit;
+				}
+				a {
+					font-family: $font-Light;
+					font-size: 25px;
+					line-height: 64px;
+					border: 0;
+					&:hover,&:focus,&:active{
+						background:inherit;
+					}
+
+				}
+			}
+
+		}
+	}
+	.menu{ 
+		width: 100%;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.menu-item a {
+		&:hover,&:focus,{
+			background-color: #ffac01;
+			@include transition();
+		}
+		&:active{
+			background:inherit;
+		}
+	}
+	.menu-item{
+		&.drop>a {
+			border: 0!important;
+		}
+		a {
+			height: 60px!important;
+			$menu-padding: 19px;
+			padding-left: $menu-padding!important;
+			padding-right: $menu-padding!important;
+			line-height: 60px !important;
+			border-left: 1px solid #64a7d6;
+			text-transform: uppercase;
+			font-family: $font-Bold;
+			color: #fff;
+			@include transition();
+
+			span {
+				color: #fff;
+			}
+		}
+	}
+	.menu-item:last-child a {
+		border-right: 1px solid #64a7d6;
+	}
+}
+#header {
+	border-bottom: 4px solid #f9d59c;
+	padding-top: 8px;
+	min-height: 90px;
+	.logo-header {
+		height: 73px;
+		width: 99px;
+		float: left;
+	}
+	.slogan {
+
+		color: #365884;
+		font-family: $font-LightItalic;
+		font-size: 26px;
+		font-size: 26px;
+		line-height: 28px;
+		margin-left: 17%;
+		display: flex;
+		align-items: center;
+		height: 43px;
+	}
+	address {
+		text-align: right;
+		width: 260px;
+		font-family: $font-Regular;
+		font-size: 26px;
+		line-height: 25px;
+		text-transform: uppercase;
+		background: transparent 0 50% no-repeat;
+		background-image: url("../img/header-address-bg.png");
+		color: #5f5f5f;
+		padding: 3px 0;
+		margin: 9px 0 0 0;
+		float: right;
+		b {
+			font-weight:normal;
+			color: #1b1b1b;
+			display: inline;
+		}
+	}
+}
+#child-page-header {
+	margin-bottom: 	40px;
+	&.no-margin {
+		margin-bottom: 	0;
+	}
+	.uk-breadcrumb {
+		margin: 0;
+		li {
+			text-transform: uppercase;
+			font-size: 12px;
+			font-family: $font-Regular;
+			color: #6b6b6b;
+			line-height: 45px;
+			a {
+				color: #6b6b6b;
+
+			}
+			&:before {
+				content: "";
+				width: 5px;
+				height: 10px;
+				background-image: url('../img/breadcrumb.png');
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+			}
+			&:first-child:before {
+				display: none;
+			} 
+			&.uk-active {
+				color: #242424;
+			}
+		}
+	}
+	.page-header {
+		height: 60px;
+		background-color: #4697ca;
+		h1 {
+			font-family: $font-Light;
+			font-size: 40px;
+			line-height: 60px;
+			color: #fff;
+			display: inline-block;
+		}
+	}
+}
+footer {
+	height: 65px;
+	line-height: 65px;
+	margin-top: 65px;
+	&.no-margin {
+		margin-top: 0;
+	}
+	&.border {
+		border-top:9px solid #eaeaea;
+		
+	}
+	img {
+		margin-right: 15px;
+	}
+	p {
+		text-transform: uppercase;
+		font-size: 26px;
+		color: #404040;
+		font-family: $font-Light;
+		margin: 0;
+	}
+}
+iframe {
+	width: 100%;
+	border: 0;
+}

@@ -1,0 +1,60 @@
+@import "core";
+#page_map {
+	h2 {
+		text-transform: uppercase;
+		font-size: 28px;
+		color: #4f4f4f;
+		font-family: $font-Light;
+	}
+	p {
+		font-size: 18px;
+		color: #4f4f4f;
+		font-family: $font-Light;
+	}
+	ol {
+		list-style: none;
+		li {
+			color: #4f4f4f;
+			font-size: 18px;
+			font-family: $font-Light;
+			counter-increment: item;
+			&:before {
+				content:counter(item) ".";
+				font-weight: normal;
+				font-family: $font-Bold;
+			}
+			b{
+				font-weight: normal;
+				font-family: $font-Bold;
+			}
+		}
+	}
+	ul {
+		li {
+			font-size: 20px;
+			color: #4f4f4f;
+			font-family: $font-Bold;
+		}
+	}
+	a {
+		font-size: 20px;
+		color: #1b6a98;
+		font-family: $font-Regular;
+	}
+}
+.canvas-iframe {
+	position: relative;
+	padding-top: 8px;
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		height: 8px;
+		background-color: white;
+		box-shadow: 0 4px 7px #b3b3b3;
+		width: 100%;
+	}
+}
